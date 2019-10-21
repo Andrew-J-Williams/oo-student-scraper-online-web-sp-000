@@ -5,7 +5,7 @@ class Student
 
   @@all = []
 
-  def initialize(student_hash)
+  def initialize(student_hash) # We pass in the array as soon as we make 
     @name = student_hash[:name]
     @location = student_hash[:location]
 
