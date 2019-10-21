@@ -14,8 +14,8 @@ class Student
 
   def self.create_from_collection(students_array)
     #binding.pry
-    students_array.each do |info|
-        Student.new(info)
+    students_array.each do |info| # This method iterates over our students array, selecting out each hash.
+        Student.new(info) # We then take this hash and plug it into our initialize method, creating a new student for each instance.
     end
   end
 
