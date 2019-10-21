@@ -9,7 +9,7 @@ class Student
     @name = student_hash[:name] # We extract the value from our name key in the hash.
     @location = student_hash[:location] # We extract the value from our location key in the hash.
 
-    @@all << self
+    @@all << self # We save each instance of the student in our '@@all array'
   end
 
   def self.create_from_collection(students_array)
