@@ -5,8 +5,8 @@ class Student
 
   @@all = []
 
-  def initialize(student_hash) # We pass in the array as soon as we make a new student
-    @name = student_hash[:name]
+  def initialize(student_hash) # We pass in the array as soon as we make a new student.
+    @name = student_hash[:name] # We extract the value from our name key in the hash.
     @location = student_hash[:location]
 
     @@all << self
