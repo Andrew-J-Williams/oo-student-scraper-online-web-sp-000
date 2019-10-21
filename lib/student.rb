@@ -7,7 +7,7 @@ class Student
 
   def initialize(student_hash) # We pass in the array as soon as we make a new student.
     @name = student_hash[:name] # We extract the value from our name key in the hash.
-    @location = student_hash[:location]
+    @location = student_hash[:location] # We extract the value from our location key in the hash.
 
     @@all << self
   end
